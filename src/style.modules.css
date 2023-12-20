@@ -1,0 +1,36 @@
+.main {
+  margin: 2rem;
+  font-family: Helvetica, Arial;
+}
+
+.link-active {
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  gap: 1rem;
+}
+
+.header {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: darkgreen;
+}
+
+h1 {
+  font-size: 2, 5rem;
+  color: black;
+}
+
+h2 {
+  color: black;
+  font-size: 1.3rem;
+}

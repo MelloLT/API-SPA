@@ -1,0 +1,33 @@
+.photos {
+  display: grid;
+  gap: 1vw;
+}
+
+@media screen and (orientation: landscape) {
+  .photos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .photos img {
+    width: 30vw;
+    height: 20vw;
+    object-fit: cover;
+    margin-top: 0.5vw;
+    margin-bottom: 0.1vw;
+    border-radius: 0.5vw;
+    margin-left: 0;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .photos {
+    grid-template-columns: repeat(3, 0.5fr);
+  }
+
+  .photos img {
+    width: 30vw;
+    border-radius: 0.5vw;
+    height: 20vw;
+    object-fit: cover;
+    margin-bottom: 0.1vw;
+  }
+}

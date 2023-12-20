@@ -1,0 +1,13 @@
+.text {
+  color: gray;
+}
+.info {
+  padding-bottom: 5px;
+}
+.albums {
+  padding-top: 5px;
+}
+h2 {
+  color: black;
+  font-size: 1.3rem;
+}
